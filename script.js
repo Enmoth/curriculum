@@ -1,15 +1,15 @@
 const experienciasProfissionais = [
     {
-        empresa: "Nome da Empresa 1",
-        cargo: "Cargo 1",
-        data: "Data 1",
-        descricao: "Descrição 1"
+        empresa: "Aramart",
+        cargo: "Programador CNC",
+        data: "2020",
+        descricao: "Programava CNCs no chão de fábrica"
     },
     {
-        empresa: "Nome da Empresa 2",
-        cargo: "Cargo 2",
-        data: "Data 2",
-        descricao: "Descrição 2"
+        empresa: "Sponte",
+        cargo: "QA",
+        data: "2022",
+        descricao: "Testava bugs e implementações, além de programar testes automatizados em Java Script"
     },
 
 ];
@@ -28,14 +28,9 @@ experienciasProfissionais.forEach((experiencia) => {
 
 const formacaoAcademica = [
     {
-        instituicao: "Nome da Instituição 1",
-        curso: "Curso 1",
-        data: "Data 1"
-    },
-    {
-        instituicao: "Nome da Instituição 2",
-        curso: "Curso 2",
-        data: "Data 2"
+        instituicao: "Unimater",
+        curso: "Sistemas de Informação",
+        data: "Ongoing"
     },
 ];
 
@@ -51,9 +46,9 @@ formacaoAcademica.forEach((formacao) => {
 });
 
 const habilidades = [
-    "Habilidade 1",
-    "Habilidade 2",
-    "Habilidade 3",
+    "Conhecimento em Java, Java Script, Python, C e C#",
+    "Noção de testes para qualidade de código e de funcionalidade",
+    "Fluente em português e entendo inglês",
 ];
 
 const habilidadesList = document.getElementById("habilidades");

@@ -5,12 +5,23 @@ body {
     text-align: center;
     background-color: #fdfdfd;
     color: #333;
+    margin: 0;
 }
 
 header {
     background-color: #ff7eb9;
     color: #fff;
     padding: 20px;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
 }
 
 header h1 {
@@ -18,9 +29,28 @@ header h1 {
 }
 
 section {
-    margin: 20px 0;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #e7dcee;
+    padding: 10px;
+    position: relative;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    max-width: 400px;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+
+section hr {
+    width: 10%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 h2 {
@@ -35,6 +65,16 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+.silly {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100px;
+    max-height: 90vh;
+}
+
 
 footer {
     background-color: #f9f5f7;
